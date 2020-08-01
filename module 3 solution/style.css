@@ -1,0 +1,132 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color:whitesmoke; 
+    font-family: 'Oxygen', sans-serif;
+}
+
+h1 {
+    font-family: 'Lora', sans-serif;
+    color: #ffffff;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+h2 {
+    font-family: 'Lora', sans-serif;
+    color: teal;
+    font-weight: bold;
+    margin-top: 20px;
+    line-height: .75;
+}
+
+h3 {
+    font-family: 'Lora', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+#header-nav {
+    background-color:steelblue;
+}
+
+#nav-list {
+    margin-top: 10px;
+    background-color:lightsteelblue;
+}
+
+    #nav-list a {
+        color: black;
+        background-color: lightsteelblue;
+        text-align: center;
+    }
+
+        #nav-list a:hover {
+            background-color: lightyellow;
+        }
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid steelblue;
+}
+#main-content a {
+    text-decoration: none;
+}
+
+.sectiontxt h3 {
+    padding: 5px 0px 15px 0px;
+    margin: 10px 0px 0px 0px;
+}
+
+div.sectiontxt {
+    margin: 10px;
+    background-color:darkblue;
+    color: aliceblue;
+    padding: 15px;
+}
+
+.sectiontxt a {
+    color:lightyellow;
+}
+
+    .sectiontxt a:hover {
+        color: pink;
+    }
+
+
+@media (min-width: 1200px) {
+    .navbar-brand h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-brand h1 {
+        font-size: 1.8em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.3em;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-brand h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+
+    h3 {
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-brand h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+
+    h3 {
+        font-size: 1.1em;
+    }
+}
